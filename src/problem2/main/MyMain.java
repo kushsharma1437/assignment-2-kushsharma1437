@@ -1,11 +1,26 @@
-/*
- *  Created by IntelliJ IDEA.
- *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:15 PM
- */
+
 package problem2.main;
+
+import problem1.mybst.MyBinarySearchTree;
+
 // executable class
 // use problem1.mybst.MyBinarySearchTree class for creating binary tree
 public class MyMain {
+    public static void main(String[] args) {
+        MyBinarySearchTree obj = new MyBinarySearchTree();
+        obj.insert(5);
+        obj.insert(10);
+        obj.insert(1);
+        obj.insert(6);
+        obj.insert(50);
+        obj.insert(40);
+        obj.insert(30);
+        obj.insert(90);
+        obj.insert(100);
+        obj.insert(3);
+        obj.insert(9);
+        obj.insert(2);
+        obj.insert(7);
+        obj.prepost();
+    }
 }
